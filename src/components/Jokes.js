@@ -3,7 +3,7 @@ import spinner from '../assets/spinner1.jpg';
 
 const Jokes = () => {
   const [joke, setJoke] = useState({});
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const url = "https://api.chucknorris.io/jokes/random";
   const handleJokes = () => {
     setIsLoading(true)
